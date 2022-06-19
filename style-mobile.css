@@ -22,11 +22,6 @@
          [row-footer] auto;
      gap: 5px;
  }
- 
-/* .top-fixed {
-    display: block;
-    position: fixed;
-} */
 
 h1 {
     font-size: 2em;
@@ -45,13 +40,10 @@ p {
      grid-column: 1 / span 4;
      padding: 10px;
      height: 100px;
-     /* width: 100%; */
  }
  
  .navbar {
      overflow: hidden;
-     /* position: fixed; */
-     /* width: 100%; */
      background-color: grey;
      grid-column: 1 / span 4;
      padding: 10px;
@@ -61,7 +53,6 @@ p {
      display: block;
      float: left;
      padding-right: 30px;
-     /* text-align: center; */
      text-decoration: none;
      color: black;
  }
@@ -74,29 +65,18 @@ p {
      background-color: lightgrey;
      grid-column: 1 / span 4;
      padding: 10px;
-     /* width: 100% */
  }
  
  .pat-1 {
      background-color: lightgrey;
      grid-column: 1 / span 4;
      padding: 10px;
-     /* width: 100%; */
  }
  
  .pat-1 img {
      width: 100%;
      object-fit: contain;
  }
- 
- /* .pat-text {
-     display: inline-block;
-     position: relative;
-     font-size: 10px;
-     bottom: 30px;
-     left: 10px;
-     color: black;
- } */
  
  .pat-price {
      font-size: 1em;
@@ -135,7 +115,6 @@ p {
  
  .pat-3 {
      background-color: lightgrey;
-     /* grid-column: 1 / span 2; */
      padding: 10px;
  }
  

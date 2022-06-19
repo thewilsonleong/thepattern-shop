@@ -41,8 +41,6 @@ p {
 }
 
 .navbar {
-    /* overflow: hidden;
-    position: fixed; */
     width: 100%;
     background-color: grey;
     grid-column: 1 / span 4;
@@ -80,15 +78,6 @@ p {
     object-fit: cover;
 }
 
-/* .pat-text {
-    display: inline-block;
-    position: relative;
-    font-size: 10px;
-    bottom: 30px;
-    left: 10px;
-    color: black;
-} */
-
 .pat-price {
     font-size: 15px;
     display: inline-block;
@@ -100,10 +89,6 @@ p {
     font-size: 15px;
     display: inline-block;
     font-weight: bold;
-}
-
-.pat-text {
-    /* font-size: 12px; */
 }
 
 .pat-2 {
