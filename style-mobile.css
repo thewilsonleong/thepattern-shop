@@ -73,7 +73,7 @@ p.pat-title {
 }
 
 .about {
-    background-color: lightgrey;
+    background-color:aquamarine;
     grid-column: 1 / span 4;
     padding-top: 185px;
     padding-bottom: 5px;
@@ -81,7 +81,7 @@ p.pat-title {
 }
 
 .pat-1 {
-    background-color: lightgrey;
+    background-color: aquamarine;
     grid-column: 1 / span 4;
     grid-row: 2;
 }
@@ -104,50 +104,50 @@ p.pat-title {
 }
 
 .pat-2 {
-    background-color: lightgray;
+    background-color: aquamarine;
     grid-column: 1 / span 4;
     grid-row: 3;
 }
 
 
 .pat-3 {
-    background-color: lightgrey;
+    background-color: aquamarine;
     grid-column: 1 / span 4;
     grid-row: 4;
 }
 
 .pat-4 {
-    background-color: lightgrey;
+    background-color: aquamarine;
     grid-column: 1 / span 4;
     grid-row: 5;
 }
 
 .pat-5 {
-    background-color: lightgrey;
+    background-color: aquamarine;
     grid-column: 1 / span 2;
     grid-row: 6;
 }
 
 .pat-6 {
-    background-color: lightgrey;
+    background-color: aquamarine;
     grid-column: 3 / span 2;
     grid-row: 6;
 }
 
 .pat-7 {
-    background-color: lightgrey;
+    background-color: aquamarine;
     grid-column: 1 / span 2;
     grid-row: 7;
 }
 
 .pat-8 {
-    background-color: lightgrey;
+    background-color: aquamarine;
     grid-column: 3 / span 2;
     grid-row: 7;
 }
 
 #contact {
-    background-color:lightgrey;
+    background-color:aquamarine;
     height: auto;
 }
 
