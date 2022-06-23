@@ -1,26 +1,10 @@
 /* Style Mobile */
 
-
 * {
-    width: 375px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
- }
- 
- .grid {
-     display: grid;
-     grid-template-columns: auto auto auto auto;
-     grid-template-rows:
-         [row-header] 100px
-         [row-nav] auto
-         [row-about]auto
-         [row-pat] auto
-         [row-pat] auto
-         [row-pat] auto
-         [row-footer] auto;
-     gap: 5px;
  }
 
 h1 {
@@ -32,159 +16,158 @@ h2 {
 }
 
 p {
+    font-size: 0.7em;
+}
+
+p.pat-title {
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+.head-all {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+.head-title {
+    overflow: hidden;
+    width: 100%;
+    height: 150px;
+    top: 0;
+}
+
+.head-title h1 {
+    margin-top: 55px;
+}
+
+.nav-bar {
+    height: 30px;
+    background-color: black;
+}
+
+.nav-bar a {
+    float: left;
+    display: block;
+    color: white;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    background-color: lightgrey;
+    height: 30px;
+    color: black;
+}
+
+ .grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows:
+    auto
+    auto
+    auto
+    auto
+    auto;
+    gap: 5px;
+}
+
+.about {
+    background-color: lightgrey;
+    grid-column: 1 / span 4;
+    padding-top: 185px;
+    padding-bottom: 5px;
+    height: auto;
+}
+
+.pat-1 {
+    background-color: lightgrey;
+    grid-column: 1 / span 4;
+    grid-row: 2;
+}
+
+.pat-1 img,
+.pat-2 img,
+.pat-3 img,
+.pat-4 img,
+.pat-5 img,
+.pat-6 img,
+.pat-7 img,
+.pat-8 img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.pat-text {
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.pat-2 {
+    background-color: lightgray;
+    grid-column: 1 / span 4;
+    grid-row: 3;
+}
+
+
+.pat-3 {
+    background-color: lightgrey;
+    grid-column: 1 / span 4;
+    grid-row: 4;
+}
+
+.pat-4 {
+    background-color: lightgrey;
+    grid-column: 1 / span 4;
+    grid-row: 5;
+}
+
+.pat-5 {
+    background-color: lightgrey;
+    grid-column: 1 / span 2;
+    grid-row: 6;
+}
+
+.pat-6 {
+    background-color: lightgrey;
+    grid-column: 3 / span 2;
+    grid-row: 6;
+}
+
+.pat-7 {
+    background-color: lightgrey;
+    grid-column: 1 / span 2;
+    grid-row: 7;
+}
+
+.pat-8 {
+    background-color: lightgrey;
+    grid-column: 3 / span 2;
+    grid-row: 7;
+}
+
+#contact {
+    background-color:lightgrey;
+    height: auto;
+}
+
+.footer-details {
+    font-size: 0.9em;
+    text-align: left;
+    margin-top: 5px;
+    padding-bottom: 10px;
+
+}
+
+.footer-details a {
     font-size: 0.8em;
 }
 
- .header {
-     background-color:lightgrey;
-     grid-column: 1 / span 4;
-     padding: 10px;
-     height: 100px;
- }
- 
- .navbar {
-     overflow: hidden;
-     background-color: grey;
-     grid-column: 1 / span 4;
-     padding: 10px;
- }
- 
- .navbar a {
-     display: block;
-     float: left;
-     padding-right: 30px;
-     text-decoration: none;
-     color: black;
- }
- 
- .navbar a:hover {
-     color: lightgrey;
- }
- 
- .about {
-     background-color: lightgrey;
-     grid-column: 1 / span 4;
-     padding: 10px;
- }
- 
- .pat-1 {
-     background-color: lightgrey;
-     grid-column: 1 / span 4;
-     padding: 10px;
- }
- 
- .pat-1 img {
-     width: 100%;
-     object-fit: contain;
- }
- 
- .pat-price {
-     font-size: 1em;
-     display: inline-block;
-     padding-right: 10px;
-     font-weight: bold;
- }
- 
- .pat-title {
-     font-size: 1em;
-     display: inline-block;
-     font-weight: bold;
- }
- 
- .pat-text {
-     font-size: 12px;
-     padding-right: 1em;
- }
- 
- .pat-detail {
-    font-size: 0.8em;
- }
- 
- .pat-2 {
-     background-color: lightgrey;
-     grid-column: 1 / span 4;
-     padding: 10px;
+.footer-details img{
+    height: 30px;
+}
 
- }
- 
- .pat-2 img {
-     width: 100%;
-     height: 150px;
-     object-fit: cover;
- }
- 
- .pat-3 {
-     background-color: lightgrey;
-     padding: 10px;
- }
- 
- .pat-3 img {
-     width: 100%;
-     height: 150px;
-     object-fit: cover;
- }
- 
- .pat-4 {
-     background-color: lightgrey;
-     grid-column: 1 / span 4;
-     padding: 10px;
- }
- 
- .pat-4 img {
-     width: 100%;
-     height: 150px;
-     object-fit: cover;
- }
- 
- .pat-5 {
-     background-color: lightgrey;
-     grid-column: 1 / span 4;
-     padding: 10px;
- }
- 
- .pat-5 img {
-     width: 100%;
-     height: 150px;
-     object-fit: cover;
- }
- 
- .pat-6 {
-     background-color: lightgrey;
-     grid-column: 1 / span 4;
-     padding: 10px;
- }
- 
- .pat-6 img {
-     width: 100%;
-     height: 150px;
-     object-fit: cover;
- }
- 
- .pat-7 {
-     background-color: lightgrey;
-     grid-column: 1 / span 4;
-     padding: 10px;
- }
- 
- .pat-7 img {
-     width: 100%;
-     height: 150px;
-     object-fit: cover;
- }
- 
- .footer {
-     background-color: lightgrey;
-     grid-column: 1 / span 4;
-     padding: 10px;
- }
- 
- .footer-details {
-    font-size: 0.7em;
-     text-align: left;
-     margin: auto;
-     padding-bottom: 30px;
- }
 
- .footer-details a {
-    font-size: 0.7em;
+.footer-details h4 {
+    padding-top: 10px;
 }
