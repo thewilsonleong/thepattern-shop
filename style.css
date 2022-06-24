@@ -78,9 +78,14 @@ p.pat-title {
 .about {
     background-color: lightgrey;
     grid-column: 1 / span 4;
-    padding-top: 185px;
     padding-bottom: 5px;
     height: auto;
+}
+
+.about img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
 }
 
 .pat-1 {
