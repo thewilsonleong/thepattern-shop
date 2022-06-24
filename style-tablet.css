@@ -8,7 +8,7 @@
  }
 
 h1 {
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 h2 {
@@ -51,6 +51,7 @@ p.pat-title {
     display: block;
     color: white;
     padding-right: 30px;
+    margin-top: 5px;
     text-decoration: none;
 }
 
