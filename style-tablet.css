@@ -1,4 +1,4 @@
-/* Style Mobile */
+/* Style Tablet */
 
 * {
     margin: 0;
@@ -8,7 +8,7 @@
  }
 
 h1 {
-    font-size: 2em;
+    font-size: 3em;
 }
 
 h2 {
@@ -16,7 +16,7 @@ h2 {
 }
 
 p {
-    font-size: 0.7em;
+    font-size: 0.8em;
 }
 
 p.pat-title {
@@ -55,7 +55,7 @@ p.pat-title {
 }
 
 .nav-bar a:hover {
-    background-color: lightgrey;
+    background-color:beige;
     height: 30px;
     color: black;
 }
@@ -64,9 +64,6 @@ p.pat-title {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows:
-    auto
-    auto
-    auto
     auto
     auto
     auto
@@ -90,7 +87,7 @@ p.pat-title {
 
 .pat-1 {
     background-color:beige;
-    grid-column: 1 / span 4;
+    grid-column: 1 / span 1;
     grid-row: 2;
 }
 
@@ -103,78 +100,78 @@ p.pat-title {
 .pat-7 img,
 .pat-8 img {
     width: 100%;
+    height: 200px;
     object-fit: cover;
 }
 
 .pat-text {
     padding-left: 5px;
+    padding-right: 5px;
     padding-bottom: 5px;
 }
 
 .pat-2 {
     background-color:beige;
-    grid-column: 1 / span 4;
-    grid-row: 3;
+    grid-column: 2 / span 1;
+    grid-row: 2;
 }
 
 
 .pat-3 {
     background-color:beige;
-    grid-column: 1 / span 4;
-    grid-row: 4;
+    grid-column: 3 / span 1;
+    grid-row: 2;
 }
 
 .pat-4 {
     background-color:beige;
-    grid-column: 1 / span 4;
-    grid-row: 5;
+    grid-column: 4 / span 1;
+    grid-row: 2;
 }
 
 .pat-5 {
     background-color:beige;
-    grid-column: 1 / span 4;
-    grid-row: 6;
+    grid-column: 1 / span 1;
+    grid-row: 3;
 }
 
 .pat-6 {
     background-color:beige;
-    grid-column: 1 / span 4;
-    grid-row: 7;
+    grid-column: 2 / span 1;
+    grid-row: 3;
 }
 
 .pat-7 {
     background-color:beige;
-    grid-column: 1 / span 4;
-    grid-row: 8;
+    grid-column: 3 / span 1;
+    grid-row: 3;
 }
 
 .pat-8 {
     background-color:beige;
-    grid-column: 1 / span 4;
-    grid-row: 9;
+    grid-column: 4 / span 1;
+    grid-row: 3;
 }
 
 #contact {
     background-color:beige;
-    height: auto;
+    height: 80px;
+    margin-top: 5px;
 }
 
 .footer-details {
-    font-size: 0.9em;
+    font-size: 0.7em;
     text-align: left;
-    margin-top: 5px;
-    padding-bottom: 10px;
-}
-
-.footer-details a {
-    font-size: 0.8em;
+    margin-top: 10px;
+    width: 25%;
+    float: left;
+    padding-bottom: 30px;
 }
 
 .footer-details img{
     height: 30px;
 }
 
-
-.footer-details h4 {
-    padding-top: 10px;
+.footer-details a {
+    font-size: 0.7em;
 }

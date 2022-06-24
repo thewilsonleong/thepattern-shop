@@ -8,7 +8,7 @@
  }
 
 h1 {
-    font-size: 2em;
+    font-size: 3em;
 }
 
 h2 {
@@ -76,7 +76,7 @@ p.pat-title {
 }
 
 .about {
-    background-color: lightgrey;
+    background-color:beige;
     grid-column: 1 / span 4;
     padding-bottom: 5px;
     height: auto;
@@ -89,7 +89,7 @@ p.pat-title {
 }
 
 .pat-1 {
-    background-color: lightgrey;
+    background-color:beige;
     grid-column: 1 / span 4;
     grid-row: 2;
 }
@@ -112,50 +112,50 @@ p.pat-title {
 }
 
 .pat-2 {
-    background-color: lightgray;
+    background-color:beige;
     grid-column: 1 / span 4;
     grid-row: 3;
 }
 
 
 .pat-3 {
-    background-color: lightgrey;
+    background-color:beige;
     grid-column: 1 / span 2;
     grid-row: 4;
 }
 
 .pat-4 {
-    background-color: lightgrey;
+    background-color:beige;
     grid-column: 3 / span 2;
     grid-row: 4;
 }
 
 .pat-5 {
-    background-color: lightgrey;
+    background-color:beige;
     grid-column: 1;
     grid-row: 5;
 }
 
 .pat-6 {
-    background-color: lightgrey;
+    background-color:beige;
     grid-column: 2;
     grid-row: 5;
 }
 
 .pat-7 {
-    background-color: lightgrey;
+    background-color:beige;
     grid-column: 3;
     grid-row: 5;
 }
 
 .pat-8 {
-    background-color: lightgrey;
+    background-color:beige;
     grid-column: 4;
     grid-row: 5;
 }
 
 #contact {
-    background-color:lightgrey;
+    background-color:beige;
     height: 80px;
     margin-top: 5px;
 }
